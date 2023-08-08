@@ -3,7 +3,6 @@ import Layout from '../../component/Layout'
 import LayoutAdmin from '../../component/Admincomponent/LayoutAdmin';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HeaderAdmin from '../../component/Admincomponent/HeaderAdmin';
-import 'react-quill/dist/quill.snow.css';
 import { useRouter } from 'next/router';
 import Head from 'next/head';
 import '../styles/adminstyles.css';
