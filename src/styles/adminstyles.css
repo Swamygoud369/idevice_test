@@ -1,0 +1,353 @@
+/* admin page css start*/
+@media only screen and (max-width: 1199px) {
+    body .login_page_home {
+      /* background: rgba(0, 0, 0, 0) url("../public/background.jpg") no-repeat scroll center center / auto 100%; */
+     height: 100%;
+     position: fixed;
+     width: 100%;
+     top: 0px;
+      z-index: -99;
+ }
+ }
+ @media only screen and (max-width: 768px) {
+ .login_scrolls .login_file {
+     width: 98%;
+ }
+ .footer_part {
+     text-align: center;
+ }
+ 
+ .login_file .boomerlogin_forms form.form-horizantal {
+     padding: 50px 8% 20px;
+ }
+ }
+ .login_page_home {
+      /* background: rgba(0, 0, 0, 0) url("../public/background.jpg") no-repeat scroll center center / 100% 100%; */
+     height: 100%;
+     position: fixed;
+     width: 100%;
+     top: 0px;
+      z-index: -99;
+ }
+ .login_page_home:after {
+    /* background:rgba(0, 0, 0, 0) url("../public/backgroundafter.png") repeat scroll center center; */
+     content: "";
+     height: 100%;
+     position: fixed;
+     width: 100%;
+     top: 0px;
+      z-index: -9;
+ }
+ .login_logo {
+     margin: auto;
+     padding-top: 60px;
+     width: 80%;
+     padding-bottom: 40px;
+     text-align: center;
+ }
+ .login_logo img{
+    max-width: 280px;
+ }
+ .login_icons {
+     background: #043752 none repeat scroll 0 0;
+     border-radius: 50%;
+     height: 120px;
+     margin: 20px auto auto;
+     width: 120px;
+     display: none;
+     text-align: center;
+ }
+ .login_icons .img-responsive {
+     display: inline-block;
+     padding: 0;
+     position: relative;
+     top: 35px;
+ }
+ .login_file {
+     width: 680px;
+     margin:auto; 
+         
+ }
+ .nav.navbar-nav > li > a {
+     color: #fff;
+     text-shadow: 0 0 0 rgba(255, 255, 255, 0.25);
+ }
+ .boomerlogin_forms form.form-horizantal {
+     padding: 50px 15% 20px;
+ }
+ .footer_part {
+     background: rgba(4, 55, 82, 0.2) none repeat scroll 0 0;
+     display: inline-block;
+     font-size: 16px;
+     margin: 0 0 -4px;
+     padding: 15px 15px;
+     width: 100%;
+       border-bottom: 1px solid transparent;
+ }
+ #login-form h1{
+  background: rgba(4, 55, 82, 0.8) none repeat scroll 0 0;
+     color: #fff;
+     font-size: 30px;
+     font-weight: 400;
+     margin: 0;
+     padding: 10px 0;
+     text-align: center;
+     text-transform: uppercase;
+     border-radius: 2px 2px 0px 0px;
+ }
+ .forgotpassword, .forgotpassword:hover, .forgotpassword:focus{
+     color: #000;
+     text-decoration: none;
+ }
+ .register_account, .register_account:hover, .register_account:focus{
+     display: inline-block;
+     text-align: right;
+     width: 100%;
+     color: #000;
+     text-decoration: none;
+ }
+ .login_scrolls {
+     width: 100%;
+     height: 100%;
+     overflow-y: scroll;
+ }
+ .boomerlogin_forms {
+     background: #ffffff none repeat scroll 0 0;
+     position: relative;
+     border-radius: 2px;
+     margin-top: 20px;
+     margin-bottom: 40px;
+ }
+ .boomerlogin_forms:after {
+      -moz-border-bottom-colors: none;
+     -moz-border-left-colors: none;
+     -moz-border-right-colors: none;
+     -moz-border-top-colors: none;
+     border-color: rgba(136, 183, 213, 0) rgba(136, 183, 213, 0) rgba(4, 55, 82, 0.8);
+     border-image: none;
+     border-style: solid;
+     border-width: 20px;
+     bottom: 100%;
+     content: " ";
+     height: 0;
+     left: 50%;
+     margin-left: -20px;
+     pointer-events: none;
+     position: absolute;
+     width: 0;
+ }
+ 
+ .login_button {
+     /* background: #f58634 url("../public/arrows_botom.png") no-repeat scroll center bottom -3px; */
+     border: 0 none;
+     color: #fff;
+     font-size: 26px;
+     padding: 6px 10px;
+     text-transform: uppercase;
+     width: 100%;
+ }
+ .boomerlogin_forms .form-horizantal .form-group {
+     margin-bottom: 30px;
+ }
+ .icons_class {
+       background-color: #043752;
+     border: 3px solid #fff;
+     border-radius: 50%;
+     box-sizing: unset;
+     display: inline-block;
+     float: left;
+     height: 36px;
+     margin-left: -14px;
+     margin-top: -4px;
+     padding: 6px;
+     position: absolute;
+     text-align: center;
+     width: 36px;
+ }
+ .boomerlogin_forms .form-control {
+     background: #dadada none repeat scroll 0 0;
+     border: 0 none;
+     border-radius: 2px;
+     min-height: 46px;
+     padding-left: 50px;
+ }
+ 
+ /* .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 48px 0 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+  } */
+  
+  .leftmenu_sidebar{
+    position: fixed;
+    height: 100%;
+    width: 250px;
+    padding-top: 10px;
+    /* background: #f6e7ae; */
+    background: #ffffff;
+    padding-right: 0;
+  }
+  .rightmenu_content{
+    padding-left: 250px;
+    width:100%;
+    height: 100%;
+    background: #cccccc;
+  }
+   .sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 72px);
+    padding-top: 15px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-top: 10px;
+  } 
+  
+  .nav-link {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .nav-link.active {
+    color: #007bff;
+  }
+  .navbar-toggler-icon{
+    border: 1px solid #cccccc;
+    padding: 5px;
+  }
+.dropdown_menu a{
+    text-decoration: none;
+    color: #333333;
+    padding: 0 10px;
+    font-weight: 600;
+    font-size: 13px;
+}
+.dropdown_menu{
+    text-align: right;
+    padding: 10px 0;
+}
+.contentmain{
+    background: #FFFFFF;
+    /* box-shadow: 0 0 15px 0px #f0f0f0; */
+    /* padding: 10px; */
+    border-radius: 4px;
+}
+.titleheading {
+    padding: 8px 15px;
+    background: #e7bd16;
+    font-size: 16px;
+    font-weight: 500;
+    border-bottom: 1px solid #f0f0f0;
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    color: #000000;
+}
+.admin_bgblk {
+    /* background: #33406e; */
+    /* background: #e7bd16; */
+    /* background: #e17123; */
+    background: #ffffff;
+}
+.adminadd_btn {
+    text-decoration: none;
+    font-size: 13px;
+    background: #ffffff;
+    line-height: 21px;
+    padding: 2px 10px;
+    color: #000000;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.admin_logoimg {
+    max-height: 45px;
+    width: auto;
+    padding-left: 20px;
+}
+.breadcrumb_blk {
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+.breadcrumb_blk ul {
+    display: flex;
+    list-style: none;
+    padding: 8px 16px;
+    font-size: 14px;
+}
+.breadcrumb_blk ul li {
+    padding: 0px 8px;
+}
+.breadcrumb_blk ul li a{
+    text-decoration: none;
+    font-weight: 600;
+}
+.admincontent_blk{
+    padding: 15px;
+}
+.content_mainblk {
+    background: #f0f0f0;
+    padding: 15px 0px;
+}
+.adminsubmit_btn {
+    background: #e7bd16;
+    border: 0;
+    padding: 8px 25px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 700;
+    min-width: 200px;
+    font-size: 16px;
+}
+.tblaction_blk svg {
+    font-size: 22px;
+    color: #666666;
+    padding: 0 5px;
+    border: 1px solid #cccccc;
+    margin-right: 0px;
+    border-radius: 4px;
+    min-height: 23px;
+}
+.tblaction_blk svg:hover {
+    color: #e07123;
+    border: 1px solid #e7bd16;
+}
+.edit_option {
+    display: inline-block;
+    /* border: 1px solid #cccccc; */
+    font-size: 12px;
+    border-radius: 4px;
+    margin-right: 5px;
+    text-align: center;
+    padding: 1px 0px;
+    cursor: pointer;
+}
+/* .edit_option:hover {
+    color: #e07123;
+    border: 1px solid #e7bd16;
+} */
+.tblaction_blk button {
+    border: 0;
+    background: none;
+}
+.description{
+    font-size: 13px;
+    max-height: 165px;
+    display: inline-block;
+    overflow: auto;
+    max-width: 900px;
+    width: 100%;
+    border: 0;
+}
+.quill {
+    background: #ffffff;
+}
+.quill.txteditor .ql-editor {
+    height: 200px;
+}
+.admincontent_blk table tbody tr td, .admincontent_blk table tbody tr {
+    box-shadow: none;
+    background: #ffffff;
+}
